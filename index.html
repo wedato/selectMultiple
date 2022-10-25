@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <title>My first Webpage</title>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+        
+    </head>
+
+    <body>
+            <div>
+                <p>Choisir un département</p>
+                <select name="Départements" id="departements">
+                    <option value="01">01 - Ain</option>
+                    <option value="02">02 - Aisne</option>
+                    <option value="03">03 - Allier</option>
+                    <option value="04">04 - Alpes de Haute Provence</option>
+
+                </select>
+            </div>
+
+
+            <div>
+                <p>Choisir un ou plusieurs mots-clés</p>
+                <select name="keywords" id="keywords" multiple>
+                    <option value="11">AJAX</option>
+                    <option value="12">API</option>
+                    <option value="13">Application Mobiles</option>
+                    <option value="14">Base de données</option>
+
+                </select>
+            </div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+            <script src="./script.js"></script>
+        
+    </body>
+
+</html>
